@@ -1,5 +1,6 @@
 package pages;
 
+import elementfactory.ElementFactory;
 import elementfactory.base.Element;
 import elements.Input;
 import org.openqa.selenium.WebDriver;
@@ -15,5 +16,6 @@ public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
         super(driver);
+        ElementFactory.initElements(driver, this);
     }
 }
