@@ -14,11 +14,11 @@ public class ContactImpl extends ElementImpl implements Contact {
         super(wrappedElement);
     }
 
-    @FindBy(css = "contacts-heading")
-    private Element countryTitle;
+    @FindBy(className = "contacts-heading")
+    public Contact countryTitle;
 
     @FindBy(tagName = "tr")
-    private List<Element> rows;
+    public List<Contact> rows;
 
 
     @Override

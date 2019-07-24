@@ -80,4 +80,6 @@ public interface Element extends WebElement {
     static Element getNewInstance(WebElement wrappedElement) {
         return ElementFactory.initElements(wrappedElement, Element.class);
     }
+
+
 }
