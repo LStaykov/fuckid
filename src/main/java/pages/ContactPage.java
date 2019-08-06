@@ -12,7 +12,7 @@ public class ContactPage extends BasePage {
 
 
     @FindBy(className = "contacts-submit")
-    public Input sendBtn;
+    public Contact sendBtn;
 
     @FindBy(xpath = "//input[@id='name']/..")
     public Input nameInput;
