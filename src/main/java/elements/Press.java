@@ -10,5 +10,5 @@ public interface Press extends Element {
 
     String getContent();
 
-    void clickButton();
+    void clickReadMoreButton();
 }

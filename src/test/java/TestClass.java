@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 
 public class TestClass {
-    private WebDriver driver;
+    public WebDriver driver;
 
     @BeforeMethod
-    private void setUpDriver() {
+    public void setUpDriver() {
         driver = new ChromeDriver();
         DriverUtils.resetDriverTimeout(driver);
 
-        driver.get("https://www.trading212.com/en");
+//        driver.get("https://www.trading212.com/en");
     }
 
 
@@ -28,7 +28,7 @@ public class TestClass {
     }
 
     @AfterMethod
-    private void tearDown() {
+    public void tearDown() {
         driver.quit();
     }
 }

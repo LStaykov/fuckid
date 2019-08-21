@@ -9,26 +9,31 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 public class PressImpl extends ElementImpl implements Press {
+
+    @FindBy(tagName = "img")
+    private Element logo;
+
+    @FindBy(tagName = "p")
+    private Element content;
+
+    @FindBy(tagName = "a")
+    private Element rearMoreBtn;
+
     public PressImpl(WebElement wrappedElement) {
         super(wrappedElement);
     }
 
-    @FindBy(className = "owl-item")
-    private List<Press> presses;
-
-
     @Override
     public boolean isLogoThere() {
-        return presses.get(5).findElement(By.tagName("img")).isEnabled();
+        return logo.isDisplayed();
     }
 
     @Override
     public String getContent() {
-        return presses.get(5).findElement(By.tagName("p")).getText().trim();
+        return content.getText().trim();
     }
 
-    @Override
-    public void clickButton() {
-        presses.get(5).findElement(By.tagName("a")).click();
+    public void clickReadMoreButton() {
+        rearMoreBtn.click();
     }
 }
