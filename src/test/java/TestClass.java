@@ -14,7 +14,7 @@ public class TestClass {
         driver = new ChromeDriver();
         DriverUtils.resetDriverTimeout(driver);
 
-        driver.get("https://www.trading212.com/en");
+        driver.get("https://www.trading212.com");
     }
 
 
@@ -26,6 +26,17 @@ public class TestClass {
         System.out.println(homePage.cfdProduct.getTitle());
         homePage.cfdProduct.gotToLearnMore();
     }
+
+    @Test
+    public void currentLanguage(){
+        HomePage homePage = new HomePage(driver);
+
+        homePage.homeLanguage.waitForStablePosition();
+        System.out.println(homePage.homeLanguage.getText());
+        homePage.homeLanguage.click();
+
+    }
+
 
     @AfterMethod
     private void tearDown() {
