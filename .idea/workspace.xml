@@ -242,6 +242,12 @@
     <MESSAGE value="adding some files" />
     <option name="LAST_COMMIT_MESSAGE" value="adding some files" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="934" y="291" key="CommitChangelistDialog2" timestamp="1575530047292">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="934" y="291" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@0.0.2560.1400" timestamp="1575530047292" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
