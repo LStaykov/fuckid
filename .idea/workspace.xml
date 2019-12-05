@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9537d65a-d873-4f99-9b06-68156fcc0beb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ContactPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContactFormTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575530603220</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Language changes">
+      <created>1575556678934</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575556678936</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding interface and impl form contact page" />
     <MESSAGE value="Changing JAVA version (12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing JAVA version (12)" />
+    <MESSAGE value="Language changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1575530473723">
@@ -229,10 +233,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1128" y="588" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-1920.153.1920.1040@0.0.2560.1400" timestamp="1575530391101" />
-    <state x="-1226" y="369" key="CommitChangelistDialog2" timestamp="1575556663813">
+    <state x="-1226" y="369" key="CommitChangelistDialog2" timestamp="1575556676582">
       <screen x="-1920" y="153" width="1920" height="1040" />
     </state>
-    <state x="-1226" y="369" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556663813" />
+    <state x="-1226" y="369" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556676582" />
     <state x="925" y="291" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@0.0.2560.1400" timestamp="1575530575237" />
     <state width="1877" height="449" key="GridCell.Tab.0.bottom" timestamp="1575556616340">
       <screen x="-1920" y="153" width="1920" height="1040" />
