@@ -14,7 +14,7 @@ public class TestClass {
         driver = new ChromeDriver();
         DriverUtils.resetDriverTimeout(driver);
 
-        driver.get("https://www.trading212.com");
+        driver.get("https://www.trading212.com/de");
     }
 
 
@@ -28,12 +28,13 @@ public class TestClass {
     }
 
     @Test
-    public void currentLanguage(){
+    public void currentLanguage() throws InterruptedException {
         HomePage homePage = new HomePage(driver);
 
         homePage.homeLanguage.waitForStablePosition();
-        System.out.println(homePage.homeLanguage.getText());
+        System.out.println(homePage.homeLanguage.currentLanguage());
         homePage.homeLanguage.click();
+        Thread.sleep(4000);
 
     }
 

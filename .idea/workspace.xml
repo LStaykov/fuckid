@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9537d65a-d873-4f99-9b06-68156fcc0beb" name="Default Changelist" comment="" />
+    <list default="true" id="9537d65a-d873-4f99-9b06-68156fcc0beb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContactFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContactFormTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +44,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
-    <option name="y" value="-8" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -171,40 +171,36 @@
       <option name="project" value="LOCAL" />
       <updated>1575448135101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changing JAVA version (12)">
+      <created>1575530524012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530524012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changing JAVA version (12)">
+      <created>1575530564855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530564855</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changing JAVA version (12)">
+      <created>1575530576151</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530576151</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changing JAVA version (12)">
+      <created>1575530603220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530603220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 21m 56s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 22m 11s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 24m 39s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 25m 27s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactFormTest_contactFormEmailTest - 2019.12.04 at 23h 27m 23s.xml">
-      <configuration name="ContactFormTest.contactFormEmailTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 28m 40s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 30m 56s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 32m 30s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 33m 20s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_currentLanguage - 2019.12.04 at 23h 34m 00s.xml">
-      <configuration name="TestClass.currentLanguage" configurationId="TestNG" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -221,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding interface and impl form contact page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding interface and impl form contact page" />
+    <MESSAGE value="Changing JAVA version (12)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing JAVA version (12)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#Project_Structure" timestamp="1575530473723">
@@ -232,10 +229,27 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1128" y="588" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2560.1400/-1920.153.1920.1040@0.0.2560.1400" timestamp="1575530391101" />
-    <state x="925" y="291" key="CommitChangelistDialog2" timestamp="1575530575237">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="-1226" y="369" key="CommitChangelistDialog2" timestamp="1575556663813">
+      <screen x="-1920" y="153" width="1920" height="1040" />
     </state>
+    <state x="-1226" y="369" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556663813" />
     <state x="925" y="291" key="CommitChangelistDialog2/0.0.2560.1400/-1920.153.1920.1040@0.0.2560.1400" timestamp="1575530575237" />
+    <state width="1877" height="449" key="GridCell.Tab.0.bottom" timestamp="1575556616340">
+      <screen x="-1920" y="153" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="449" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556616340" />
+    <state width="1877" height="449" key="GridCell.Tab.0.center" timestamp="1575556616340">
+      <screen x="-1920" y="153" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="449" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556616340" />
+    <state width="1877" height="449" key="GridCell.Tab.0.left" timestamp="1575556616337">
+      <screen x="-1920" y="153" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="449" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556616337" />
+    <state width="1877" height="449" key="GridCell.Tab.0.right" timestamp="1575556616340">
+      <screen x="-1920" y="153" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="449" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.153.1920.1040@-1920.153.1920.1040" timestamp="1575556616340" />
     <state x="781" y="342" key="SettingsEditor" timestamp="1575530503957">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
